@@ -1,10 +1,3 @@
-# HowToExtractWebpackConfFromAngularCli
-
-I generated this project to explain "how to extract webpack configuration object from @angular/cli project?`. In addition, I do this without `ng eject` :)
-
-## How to ?
-
-```js
 const fs = require('fs');
 const path = require('path');
 
@@ -42,11 +35,3 @@ const {
 // So, it has `entry`, `plugins` (and so on) keys.
 const webpackCommonConfig = getCommonConfig(webpackConfigOptions);
 console.log(webpackCommonConfig);
-```
-
-## @angular/cli version
->= 6.0.0-rc.
-
-**We can't this technique with @angular/cli(<= v.5)** because the CLI config files are not compatible.
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0-rc.7.
