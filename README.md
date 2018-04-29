@@ -1,6 +1,6 @@
 # HowToExtractWebpackConfFromAngularCli
 
-I generated this project to explain "how to extract webpack configuration object from @angular/cli project?`. In addition, I do this without `ng eject` :)
+I generated this project to explain "how to extract webpack configuration object from @angular/cli project?". In addition, I do this without `ng eject` :)
 
 ## How to ?
 
